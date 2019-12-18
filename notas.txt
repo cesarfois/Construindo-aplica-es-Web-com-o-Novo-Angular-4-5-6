@@ -1,0 +1,23 @@
+ Instalanr o node
+site download executar
+
+instalar angular 
+npm i -g @angular/cli
+ 
+ ng --version
+
+ instalando o typescript
+ npm i typescript  -g
+
+ tsc --version
+
+ compilar um arquivo 
+ tsc nomedoarquivo.tsc
+
+ rodar o compilador em background
+ tsc -w
+
+ podemos compilar os arquivos criados para um outra pasta 
+ 'compilerOptions':{
+     'outDir': 'dist'
+ }
